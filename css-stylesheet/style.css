@@ -1,4 +1,4 @@
-html{
+ html{
   background: rgba(245, 198, 136, 0.705);
   text-align: center;
   color: rgb(59, 59, 59);
@@ -24,10 +24,13 @@ body{
   border-bottom-color: rgba(255, 234, 140, 0.959);
 }
 
-#destination
 
 #globeimg{
-  height: 40px;
+  height: 365px;
+}
+
+#globeicon{ 
+  height: 60px;
 }
 
 div.body{
@@ -74,19 +77,17 @@ width: 100%;
 #melbourne {
   top: 83.8%;
   left: 87%;
-  filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
 }
+
+#melbournestart {
+  top: 83.8%;
+  left: 87%;
 
 #pretoria {
-  top: 71.8%;
+  top:71.8%;
   left: 54.6%;
-  filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
-}
 
-#mombasa {
-  top: 60.4%;
-  left: 57.8%;
-  filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
+
 }
 
 #havana {
@@ -94,7 +95,10 @@ width: 100%;
   left: 23%;
   filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
 }
-
+#mombasa {
+  top:68.2%
+  left: 48.2%
+}
 #guatemala {
   top: 51%;
   left: 20.4%;
