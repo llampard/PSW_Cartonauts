@@ -76,13 +76,8 @@ width: 100%;
 #melbourne {
   top: 83.8%;
   left: 87%;
-  
 }
 
-#melbournestart {
-  top: 83.8%;
-  left: 87%;
-}
 #pretoria {
   top:71.8%;
   left: 54.6%;
@@ -92,19 +87,19 @@ width: 100%;
   top: 46.8%;
   left: 23%;
 }
+
 #mombasa {
   top:64.2%;
   left: 58.2%;
 }
 #guatemalacity {
   top: 51%;
-  left: 20.4%;;
+  left: 20.4%;
 }
 
 #helsinki {
   top: 23.7%;
   left: 52.4%;
-  filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
 }
 
 #tunis {
@@ -126,5 +121,10 @@ width: 100%;
   top: 38.8%;
   left: 84.4%;
 }
+
+.orange{
+  filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
+}
+
 
 
