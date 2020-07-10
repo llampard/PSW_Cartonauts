@@ -1,0 +1,83 @@
+html{
+  background: rgba(245, 198, 136, 0.705);
+  text-align: center;
+  color: rgb(59, 59, 59);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+  margin:0px;
+  font-size: 20px;
+}
+
+.header {
+  font-family: 'Bungee Shade';
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  color:rgba(0, 0, 0, 0.827);
+  background-color: rgb(241, 113, 62);
+  padding-top:10px;
+  padding-bottom: 10px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(255, 234, 140, 0.959);
+}
+
+#destination
+
+#globeimg{
+  height: 50px;
+}
+
+
+div.body{
+  margin-right:20vw;
+  margin-left:20vw;
+}
+
+p{
+  text-indent: 7%;
+}
+
+
+
+html{
+  text-align: center;
+  font: italic;
+}
+#map
+{
+position: relative;
+width: 80%;
+}
+
+#map .pin {
+  position: absolute;
+}
+
+#map .world-map{
+  display: block;
+  width: 100%;
+}
+#sanfrancisco {
+  top: 32%;
+  left: 14%;
+}
+
+#reykjavik {
+  top: 16.8%;
+  left: 39.6%;
+  filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
+}
+
+#melbourne {
+  top: 16.8%;
+  left: 39.6%;
+  filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
+}
+
+
+iframe{
+ margin-right:
+}
