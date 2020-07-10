@@ -1,44 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
+   <head>
     <title>Reykjavik</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link href="../css-stylesheet/style.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
   </head>
-  <body>
-    <div id="reykjavik">
-      <div class="header">
-        <h1 id="headerlogo" > 
-          <img id="globeicon" src="../images/WorldLogo.jpg" alt="cartoon globe"/> Around the World in 80 Days <img id="globeicon" src="../images/WorldLogo.jpg" alt="cartoon globe"/></h1>
-      </div>
-
-      <div class="body">
-      <div>
-        <h1>Hallo, visit Reykjavik!</h1>
-        <h2>You step outside of the Reykjavík Airport and you look around, you can’t seem to find Clarke but you know you saw him on the plane. However, you do find a driver holding a poster with your name on it. As he begins to load your luggage you find a note in the backseat. It's an itinerary! First, you visit the Golden Circle and watch the geysers erupt, then you visit the whale exhibit. Lastly, you visit the small town of Tjornin and watch the Northern Lights. You realize your trip to Iceland was over and start planning your next destination. Where to?</h2>
-      </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!4v1594346923055!6m8!1m7!1sCAoSLEFGMVFpcE5qczhHbnBadk1nTjA3RnJ2d2V1V29iY1g5Z2hzLUhQQXd4MGdP!2m2!1d64.14762089999999!2d-21.9222951!3f87.19801348360325!4f11.427641445181138!5f0.7820865974627469" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-      <br>
-     
-      <div id="map">
-        <img src="https://www.iwmf.org/wp-content/themes/nmc_iwmf/css/images/map.png" alt="world map" class="world-map">
-        <div class="iconsets pin active" id="reykjavik"> 
-          <img src="../pin.svg" data-city="reykjavik">
-      </div>
-        
-        <div class="iconsets pin active" id="tunis"> 
-            <a href="../destinations/tunis.html"><img src="../pin.svg" data-city="tunis" ></a>
-        </div> 
-
-        <div class="iconsets pin active" id="helsinki"> 
-            <a href="../destinations/helsinki.html"><img src="../pin.svg" data-city="helsinki" ></a>
-        </div> 
-    </div>
-    </div>
-
-    </div>
-  </body>
   
+  <body>
+    <div>
+     <div class="header">
+      <h1 id="headerlogo" > 
+        <a href="../index.html"><img id="globeicon" src="../images/WorldLogo.jpg" alt="cartoon globe"/></a> 
+          Around the World in 80 Days 
+        <a href="../index.html"><img id="globeicon" src="../images/WorldLogo.jpg" alt="cartoon globe"/></a> 
+      </h1>
+      </div>
+
+     <div class="body">
+
+      <div class="story">
+        <h1>
+            Hallo, Welcome to Reykjavik!
+        </h1>
+        <p>
+          You step outside of the Reykjavík Airport and you look around, you can’t seem to find Clarke but you know you saw him on the plane. 
+          However, you do find a driver holding a poster with your name on it. As he begins to load your luggage you find a note in the backseat. 
+          It's an itinerary! First, you visit the Golden Circle and watch the geysers erupt, then you visit the whale exhibit. 
+          Lastly, you visit the small town of Tjornin and watch the Northern Lights. They are so beautiful, but you also know you need to get going. 
+         
+        </p>
+      </div>
+      
+        
+      <iframe src="https://www.google.com/maps/embed?pb=!4v1594346923055!6m8!1m7!1sCAoSLEFGMVFpcE5qczhHbnBadk1nTjA3RnJ2d2V1V29iY1g5Z2hzLUhQQXd4MGdP!2m2!1d64.14762089999999!2d-21.9222951!3f87.19801348360325!4f11.427641445181138!5f0.7820865974627469" 
+      width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+       
+
+       <br/>
+       <h2>Where to next? Click on the orange pin of your next destination.</h2>
+       <br/>
+
+        <div id="map">
+            <img src="https://www.iwmf.org/wp-content/themes/nmc_iwmf/css/images/map.png"
+                alt="world map" class="world-map">
+
+
+            <div class="iconsets pin active" id="reykjavik"> 
+                <img src="../pin.svg" data-city="reykjavik">
+            </div>
+            
+            <div class="iconsets pin active orange" id="helsinki"> 
+                <a href="../destinations/helsinki.html"><img src="../pin.svg" data-city="helsinki" ></a>
+            </div> 
+
+            <div class="iconsets pin active orange" id="tunis"> 
+                <a href="../destinations/tunis.html"><img src="../pin.svg" data-city="tunis" ></a>
+            </div> 
+        </div>
+     </div>
+
+     <footer>
+      <br>
+      Click on either globe at the top to go back to the home page.
+    </footer>
+  </body>
 </html>  
+

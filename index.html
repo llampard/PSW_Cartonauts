@@ -20,18 +20,23 @@
     <div class="body">
       <div id="intro" >
         <h2> Welcome to Around the World in 80 Days!</h2>
-        <p>The object of the game is to choose the correct path that will take you around the world. If your journey takes you longer than 80 Days to complete, you lose the game. <br> Good Luck Travelers!</p> 
+        <p>The object of the game is to choose the correct path that will take you around the world. 
+          If your journey takes you longer than 80 Days to complete, you lose the game. <br> Good Luck Travelers!</p> 
         <h2>Hello San Francisco!</h2>
       </div>
     
       <!--Google street view-->
-      <div id="originSV">
-        <iframe src="https://www.google.com/maps/embed?pb=!4v1594320952435!6m8!1m7!1sToFmSBlvEZJznxVMw8AEzw!2m2!1d37.78866184085133!2d-122.4005674223369!3f26.56752800012573!4f7.524172919737268!5f0.7820865974627469" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        <p> You're in San Francisco waiting for the car provided by the company holding the 80 Days competition. Along with you is your competitor, Clarke. His nose is pointed up and he won't even look your way. "How rude!" you think to yourself, "Man, I can't wait to see his face when I'm standing on the podium with the grand prize." You take out the map given to you at the start of the competition. Which flight should you take?</p>
-        <br>
-        <p>Continue your journey! Click on one of the  points on the map below to choose your next destination. <br>Will you make it on time?</p>
-      </div>
-    
+      
+      <iframe src="https://www.google.com/maps/embed?pb=!4v1594419957361!6m8!1m7!1sCAoSLEFGMVFpcE9jZnZRSVRxSDgzcVdTVlNCcTR4R0ItS2lmUmJNVk1CY25BakZf!2m2!1d37.7922974!2d-122.3828354!3f60.023967830504155!4f55.19249562287234!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>        
+        
+        <p> You're in San Francisco waiting for the car provided by the company holding the 80 Days competition. 
+          Along with you is your competitor, Clarke. His nose is pointed up and he won't even look your way. "How rude!" you think to yourself, 
+          "Man, I can't wait to see his face when I'm standing on the podium with the grand prize." You take out the map given to you at the start of the competition.
+           Which flight should you take?</p>
+          <br>
+            <h2>Where to next? Click on the orange pin of your next destination.</h2>
+          <br/>
+
  <!-- MAKE SURE THE MAP is earlier in the tab -->
     <div id="map">
       <img src="https://www.iwmf.org/wp-content/themes/nmc_iwmf/css/images/map.png" alt="world map" class="world-map">
@@ -39,13 +44,18 @@
          <img src="pin.svg" data-city="sanfrancisco">
       </div>
       
-      <div class="iconsets pin active" id="reykjavik"> 
-          <a href="../destinations/reykjavik.html" ><img src="pin.svg" data-city="reykjavik" ></a>
+      <div class="iconsets pin active orange" id="reykjavik"> 
+          <a href="destinations/reykjavik.html" ><img src="pin.svg" data-city="reykjavik" ></a>
       </div>
 
-      <div class="iconsets pin active" id="melbourne"> 
-        <a href="../destinations/melbourne.html"><img src="pin.svg" data-city="melbourne"></a>
+      <div class="iconsets pin active orange" id="melbourne"> 
+        <a href="destinations/melbourne.html"><img src="pin.svg" data-city="melbourne"></a>
       </div>
     </div>
+   
+    <footer>
+      <br>
+      Click on either globe at the top to go back to the home page.
+    </footer>
   </body>
 </html>

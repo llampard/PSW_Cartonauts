@@ -1,41 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
+   <head>
     <title>Pretoria</title>
-     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link href="../css-stylesheet/style.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
   </head>
+  
   <body>
-    <div id="pretoria">
-       <div class="header">
-        <h1 id="headerlogo" > 
-          <img id="globeicon" src="../images/WorldLogo.jpg" alt="cartoon globe"/> Around the World in 80 Days <img id="globeicon" src="../images/WorldLogo.jpg" alt="cartoon globe"/></h1>
+    <div>
+     <div class="header">
+      <h1 id="headerlogo" > 
+        <a href="../index.html"><img id="globeicon" src="../images/WorldLogo.jpg" alt="cartoon globe"/></a> 
+          Around the World in 80 Days 
+        <a href="../index.html"><img id="globeicon" src="../images/WorldLogo.jpg" alt="cartoon globe"/></a> 
+      </h1>
       </div>
-      <div>
-        <h1>Sawubona, this is Pretoria!</h1>
-        <h2>The woman leads you to a hot air balloon filled with food and water, that will take you to Pretoria. You ask her how long the trip will take and she replies "82 days". You lose the game.</h2>
-      </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!4v1594346160269!6m8!1m7!1sCAoSLEFGMVFpcFBsc2g2R2Z6RWlqTU9yaXd3NmMwTjhJUjdKdkk5Sm9nV0loVXRM!2m2!1d-25.7760151!2d28.1758156!3f149.14358649386384!4f5.050564957799239!5f0.7820865974627469" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+     <div class="body">
+
+      <h2>Sawubona, this is Pretoria, South Africa!</h2>
+       <p>
+         A woman greets you at the airport and presents you with your challenge in Pretoria. 
+         You have to travel by hot air balloon across safari plains to find the next envelope. 
+         From the air, you spot rhinos and lions and wildebeests from above. They're so small they almost look like toys! 
+         Once you land, you notice some giraffes having lunch. But then, it hits you that one of the
+         leaves doesn't look like a real leaf. It's your envelope! You have your tickets, but as soon as you take off, the balloon
+         gets popped by a tree branch and you are stuck! End to end, this stop in Pretoria actually lasted 72 days. 
+         You've lost the game.
+        </p> 
+    
+      <iframe src="https://www.google.com/maps/embed?pb=!4v1594346160269!6m8!1m7!1sCAoSLEFGMVFpcFBsc2g2R2Z6RWlqTU9yaXd3NmMwTjhJUjdKdkk5Sm9nV0loVXRM!2m2!1d-25.7760151!2d28.1758156!3f149.14358649386384!4f5.050564957799239!5f0.7820865974627469" 
+      width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+      </iframe>
+      <br/>
+       <h2> Try Again! Click on San Francisco, California to start over!</h2>
+      <br/>
+
+        <div id="map">
+            <img src="https://www.iwmf.org/wp-content/themes/nmc_iwmf/css/images/map.png"
+                alt="world map" class="world-map">
+
+
+            <div class="iconsets pin active" id="pretoria"> 
+                <img src="../pin.svg" data-city="pretoria">
+            </div>
+            
+            <div class="iconsets pin active orange" id="sanfrancisco"> 
+                <a href="../index.html"><img src="../pin.svg" data-city="sanfrancisco" ></a>
+            </div> 
+
+        </div>
+     </div>
+
+     <footer>
       <br>
- 
- </div>
-
-    <div id="map">
-      <img src="https://www.iwmf.org/wp-content/themes/nmc_iwmf/css/images/map.png" alt="world map" class="world-map">
-      <div class="iconsets pin active" id="pretoria"> 
-         <img src="pin.svg" data-city="pretoria">
-      </div>
-      
-      <div class="iconsets pin active" id="sanfrancisco"> 
-        <form action="index.html" method="GET">
-          <input type="image"
-          <img src="pin.svg" data-city="sanfrancisco" >
-      </form>
-      </div>
-
-
-    </div>
+      Click on either globe at the top to go back to the home page.
+    </footer>
   </body>
-</html>
+</html>  
+
+
