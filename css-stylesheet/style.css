@@ -27,7 +27,7 @@ body{
 #destination
 
 #globeimg{
-  height: 50px;
+  height: 40px;
 }
 
 
@@ -60,24 +60,20 @@ width: 80%;
   display: block;
   width: 100%;
 }
+
 #sanfrancisco {
-  top: 32%;
-  left: 14%;
+  top: 38.1%;
+  left: 12.8%;
 }
 
 #reykjavik {
-  top: 16.8%;
-  left: 39.6%;
+  top: 22.2%;
+  left: 41.7%;
   filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
 }
 
 #melbourne {
-  top: 16.8%;
-  left: 39.6%;
+  top: 82.5%;
+  left: 87%;
   filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
-}
-
-
-iframe{
- margin-right:
 }
