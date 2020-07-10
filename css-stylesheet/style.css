@@ -71,7 +71,6 @@ width: 100%;
 #reykjavik {
   top: 23.7%;
   left: 41.9%;
-  filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
 }
 
 #melbourne {
@@ -82,27 +81,23 @@ width: 100%;
 #melbournestart {
   top: 83.8%;
   left: 87%;
-
+}
 #pretoria {
   top:71.8%;
   left: 54.6%;
-
-
 }
 
 #havana {
   top: 46.8%;
   left: 23%;
-  filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
 }
 #mombasa {
-  top:68.2%
-  left: 48.2%
+  top:68.2%;
+  left: 48.2%;
 }
-#guatemala {
+#guatemalacity {
   top: 51%;
-  left: 20.4%;
-  filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
+  left: 20.4%;;
 }
 
 #helsinki {
