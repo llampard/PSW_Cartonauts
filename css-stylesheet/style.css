@@ -30,7 +30,6 @@ body{
   height: 40px;
 }
 
-
 div.body{
   margin-right:20vw;
   margin-left:20vw;
@@ -49,7 +48,7 @@ html{
 #map
 {
 position: relative;
-width: 80%;
+width: 100%;
 }
 
 #map .pin {
@@ -67,13 +66,13 @@ width: 80%;
 }
 
 #reykjavik {
-  top: 22.2%;
-  left: 41.7%;
+  top: 23.7%;
+  left: 41.9%;
   filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
 }
 
 #melbourne {
-  top: 82.5%;
+  top: 83.8%;
   left: 87%;
   filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
 }

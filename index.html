@@ -12,13 +12,16 @@
     
     <div class="header">
       <h1 id="headerlogo" > 
-        <img id="globeimg" src="images/WorldLogo.jpg" alt"cartoon globe"/> Around the World in 80 Days <img id="globeimg" src="images/WorldLogo.jpg" alt"cartoon globe"/></h1>
+         Around the World in 80 Days 
+      </h1>
+         <img id="globeimg" src="images/WorldLogo.jpg" alt"cartoon globe"/>
     </div>
     
     <div class="body">
       <div id="intro" >
         <h2> Welcome to Around the World in 80 Days!</h2>
         <p>The object of the game is to choose the correct path that will take you around the world. If your journey takes you longer than 80 Days to complete, you lose the game. <br> Good Luck Travelers!</p> 
+        <h2>How's it going in San Fransisco?</h2>
       </div>
     
       <!--Google street view-->
@@ -33,15 +36,20 @@
       <div class="iconsets pin active" id="sanfrancisco"> 
          <img src="pin.svg" data-city="sanfrancisco">
       </div>
-      <div class="iconsets pin active" id="reykjavik"> 
-         <img src="pin.svg" data-city="reykjavik">
-      </div>
-      <div class="iconsets pin active" id="melbourne"> 
-         <img src="pin.svg" data-city="melbourne">
-     
-    
       
-    </div>
+      <div class="iconsets pin active" id="reykjavik"> 
+        <form action="destinations/reykjavik.html" method="GET">
+          <input type="image"
+          <img src="pin.svg" data-city="reykjavik" >
+      </form>
+      </div>
+
+      <div class="iconsets pin active" id="melbourne"> 
+        <form action="destinations/melbourne.html"  method="GET">
+          <input type="image"
+          <img src="pin.svg" data-city="melbourne" >
+        </form>
+      </div>
 
   </body>
 </html>
