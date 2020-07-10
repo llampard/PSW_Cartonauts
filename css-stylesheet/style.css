@@ -110,25 +110,21 @@ width: 100%;
 #tunis {
   top: 39.4%;
   left: 49.1%;
-  filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
 }
 
 #kathmandu {
   top: 44%;
   left: 70.7%;
-  filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
 }
 
 #manila {
   top: 50.8%;
   left: 81.2%;
-  filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
 }
 
 #osaka {
   top: 38.8%;
   left: 84.4%;
-  filter: invert(55%) sepia(29%) saturate(2794%) hue-rotate(333deg) brightness(99%) contrast(90%);
 }
 
 
